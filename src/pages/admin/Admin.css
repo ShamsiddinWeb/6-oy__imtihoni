@@ -1,0 +1,148 @@
+.admin {
+  padding-right: 40px;
+  padding-top: 250px;
+  padding-bottom: 50px;
+}
+.admin__span{
+  color: rgb(109, 160, 51);
+  font-size: 24px;
+}
+.admin__start {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+  justify-content: space-around;
+}
+.admin__title {
+  font-size: 48px;
+}
+.admin__text {
+  max-width: 405px;
+}
+.admin__cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.adminService__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.adminService__list-title {
+  color: rgba(59, 183, 126, 1);
+}
+.adminService__list-text {
+  max-width: 239px;
+  font-size: 14px;
+}
+.adminService__list-btn {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: rgba(59, 183, 126, 1);
+  color: #FFF;
+  border-radius: 8px;
+
+}
+.adminForm {
+  margin-top: 75px;
+  display: flex;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-around;
+}
+.adminForm__span {
+  color: darkgreen;
+  margin: 0;
+  font-weight: 700;
+}
+.adminForm__title {
+  font-size: 40px;
+  margin: 0;
+}
+.adminForm__text {
+  font-size: 14px;
+  color: rgba(182, 182, 182, 1);
+  margin-bottom: 30px;
+}
+.adminForm__inp {
+  width: 100%;
+  padding: 10px 20px;
+  /* width: 300px; */
+  border-radius: 10px;
+  border: 1px solid rgb(141, 139, 138);
+}
+.adminForm__input {
+  width: 100%;
+  padding: 10px 20px;
+  /* width: 670px; */
+  width: 90%;
+  padding-bottom: 200px;
+  border-radius: 10px;
+  border: 1px solid rgb(136, 134, 132);
+}
+.adminForm__group {
+ display: flex;
+ margin-bottom: 20px;
+ gap: 25px;
+}
+.adminForm__btn {
+  padding: 8px 20px;
+  background: rgba(37, 61, 78, 1);
+  border: none;
+  color: #FFF;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
+.adminForm__img {
+  padding-top: 50px;
+}
+@media only screen and (max-width: 1260px) {
+  .admin {
+    padding-top: 190px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .admin {
+    padding-top: 150px;
+  }
+}
+@media only screen and (max-width: 730px) {
+  .adminForm {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .admin {
+    padding-top: 190px;
+  }
+  .adminForm__title {
+    font-size: 25px;
+  }
+  .admin__title {
+     font-size: 25px;
+  }
+  .admin__span {
+    font-size: 16px;
+  }
+  .adminForm__input {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 405px) {
+  .admin__start {
+    flex-direction: column;
+  }
+  .adminForm__group {
+    flex-direction: column;
+    width: 80%;
+  }
+}

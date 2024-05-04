@@ -1,0 +1,52 @@
+.everyday {
+  padding-right: 40px;
+  padding-bottom: 50px;
+}
+.everyday__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.everyday__list-item {
+  padding-top: 80px;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-bottom: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+.everyday__list-item:nth-child(1) {
+  background-image: url("../../assets/images/Main.png");
+}
+.everyday__list-item:nth-child(2) {
+  background-image: url("../../assets//images/Main2.png");
+}
+.everyday__list-item:nth-child(3) {
+  background-image: url("../../assets/images/Main3.png");
+}
+.everyday__list-title {
+  max-width: 225px;
+}
+.everyday__list-btn {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+@media only screen and (max-width: 1150px){
+  .everyday__list{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+@media only screen and (max-width: 840px){
+  .everyday__list-item{
+    padding-right: 0;
+    width: 100%;
+  }
+}

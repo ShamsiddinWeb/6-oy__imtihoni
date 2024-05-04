@@ -1,0 +1,114 @@
+.login {
+  max-width: 350px;
+  padding-top: 100px;
+  overflow: hidden;
+  padding: 30px;
+  text-align: center;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+}
+.login__inp{
+    width: 93%;
+    height: 38px;
+    margin-top: 16px;
+    padding: 0 12px;
+}
+.login_img {
+    text-align: center;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+.login__text:nth-child(1) {
+    max-width: 110px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+.login__texts{
+    max-width: 60px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+.login button {
+  width: 30%;
+  margin-right: 20px;
+  height: 38px;
+  margin-top: 16px;
+  padding: 0 12px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 15px;
+}
+.label__checkbox {
+    display: flex;
+    gap: 20px;
+}
+.login__btn:nth-child(5) {
+    background-color: red;
+    color: #ddd;
+    font-size: 16px;
+}
+.form__login {
+    padding-top: 100px;
+    padding-right: 40px;
+}
+.login__cards {
+    padding-right: 40px;
+    padding-top: 140px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.nimadiee {
+    display: flex;
+    justify-content: space-between;
+}
+.nimadiee button {
+    width: 75px;
+    margin: 0;
+    margin-top: 30px;
+}
+.login__card a {
+    color: #FFF;
+    /* padding-right: 40px;
+    padding-left: 90px; */
+}
+.login__cardss {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+}
+.login__cardss a {
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+.mmm{
+    font-size: 14px;
+}
+.ass {
+    font-size: 22px;
+    
+}
+.login__cardss span {
+    font-size: 14px;
+}
+.login__cardss p {
+    margin: 0;
+    font-size: 14px;
+}
+@media only screen and (max-width: 1260px) {
+    .login__cards {
+        padding-top: 70px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .login__cards {
+        padding-top: 10px;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .login__cards {
+        padding-top: 70px;
+    }
+}

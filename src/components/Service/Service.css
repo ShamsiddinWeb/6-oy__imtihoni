@@ -1,0 +1,38 @@
+.service {
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+.service__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.service__list-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #f4f6fa;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.service__list-title {
+  margin: 0;
+  padding: 0;
+}
+.service__list-text {
+  margin: 0;
+  margin-top: 5px;
+  color: #adadad;
+}
+@media only screen and (max-width: 1280px){
+  .service__list{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 500px){
+  .service__list-item{
+    width: 100%;
+  }
+}
